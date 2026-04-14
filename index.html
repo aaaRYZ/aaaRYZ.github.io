@@ -61,6 +61,12 @@
 
 
 
+  
+
+  <script class="next-config" data-name="enableMath" type="application/json">true</script><script class="next-config" data-name="mathjax" type="application/json">{"enable":true,"tags":"all","js":{"url":"https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js","integrity":"sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="}}</script>
+<script src="/js/third-party/math/mathjax.js" defer></script>
+
+
 
   <noscript>
     <link rel="stylesheet" href="/css/noscript.css">
@@ -192,7 +198,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2026-04-02 17:43:43" itemprop="dateModified" datetime="2026-04-02T17:43:43+08:00">2026-04-02</time>
+      <time title="Modified: 2026-04-14 15:13:52" itemprop="dateModified" datetime="2026-04-14T15:13:52+08:00">2026-04-14</time>
     </span>
 
   
@@ -206,43 +212,55 @@
     
     <div class="post-body" itemprop="articleBody">
           <h3 id="method1">method1</h3>
-<h3 id="1文献：">1文献：</h3>
+<h3 id="文献">1文献：</h3>
 <h4 id="制备金属盐交联的电介质溶液">制备金属盐交联的电介质溶液</h4>
-<p><strong>溶解：</strong> 将 100mg bpy-PDMS 完全溶于 3ml 辛烷（octane）中。</p>
-<p><strong>交联：</strong> 加入金属盐（如 FeCl2, ZnCl2 等）的甲醇溶液。注：金属盐与配体的比例通常设定为 1:3</p>
-<p><strong>搅拌：</strong> 剧烈搅拌过夜。初始由于甲醇与辛烷不混溶，溶液会浑浊，反应完成后会变澄清且粘度增加</p>
-<h3 id="参考："><strong>参考：</strong></h3>
+<p><strong>溶解：</strong> 将 100mg bpy-PDMS 完全溶于 3ml
+辛烷（octane）中。</p>
+<p><strong>交联：</strong> 加入金属盐（如 FeCl2, ZnCl2
+等）的甲醇溶液。注：金属盐与配体的比例通常设定为 1:3</p>
+<p><strong>搅拌：</strong>
+剧烈搅拌过夜。初始由于甲醇与辛烷不混溶，溶液会浑浊，反应完成后会变澄清且粘度增加</p>
+<h3 id="参考"><strong>参考：</strong></h3>
 <p>制备电介质时使用<strong>辛烷</strong>（Octane）</p>
-<h3 id="2文献：">2文献：</h3>
+<h3 id="文献-1">2文献：</h3>
 <h4 id="电介质层旋涂与转移"><strong>电介质层旋涂与转移</strong></h4>
-<p><strong>旋涂：</strong> 将第一阶段制备好的交联 PDMS 辛烷溶液旋涂在 OTMS 硅片上。</p>
+<p><strong>旋涂：</strong> 将第一阶段制备好的交联 PDMS 辛烷溶液旋涂在
+OTMS 硅片上。</p>
 <p>参数：500rpm 旋转 60s，然后 2000rpm 旋转 30s。</p>
-<p>厚度控制：单层约 1.2-1.5μm，可通过多次旋涂增加厚度（如三层可达 5-6μm）以减少漏电流。</p>
-<p><strong>转移：</strong> 将形成的电介质薄膜转移覆盖在半导体层之上。</p>
-<h3 id="参考：-2"><strong>参考：</strong></h3>
+<p>厚度控制：单层约 1.2-1.5μm，可通过多次旋涂增加厚度（如三层可达
+5-6μm）以减少漏电流。</p>
+<p><strong>转移：</strong>
+将形成的电介质薄膜转移覆盖在半导体层之上。</p>
+<h3 id="参考-1"><strong>参考：</strong></h3>
 <p>旋涂参数：500rpm 旋转 60s，然后 2000rpm 旋转 30s。</p>
 <p>多次旋涂。</p>
-<h2 id="2026-3-29">2026/3/29</h2>
+<h2 id="section">2026/3/29</h2>
 <h3 id="method2">method2</h3>
 <p>介电层和半导体溶剂互溶，可以在中间旋涂一层保护层（如PVA），保护半导体层和介电层。</p>
 <p>器件结构：银纳米线-半导体-PVA-PDMS/SEBS-液态金属</p>
-<p><img src="C:%5CUsers%5Cryz08%5CDesktop%5C%E5%9B%BE.png" alt=""></p>
-<hr>
-<h2 id="2026-4-1">2026/4/1</h2>
-<h3 id="原因分析：己烷引起DPP-DTT溶胀">原因分析：己烷引起DPP-DTT溶胀</h3>
-<p>在局部溶胀区域中，厚度与介电常数同时发生变化，其电压分配取决于 d/ε 的比值。然而，由于实际结构存在显著空间不均匀性，局部区域可能出现极小厚度及低介电常数的叠加效应，从而导致局部电场显著增强，最终主导器件的击穿行为。</p>
-<h3 id="【实验验证】">【实验验证】</h3>
-<h4 id="实验目的：验证己烷有没有破坏-DPP-DTT-薄膜（1260685-66-2）">实验目的：验证己烷有没有破坏 DPP-DTT 薄膜（1260685-66-2）</h4>
-<h4 id="实验设计：做两个完全一样的器件">实验设计：做两个完全一样的器件</h4>
-<h5 id="✔-样品A（对照组）">✔ 样品A（对照组）</h5>
+<p>![]<img
+src="D:\LenovoSoftstore\blog\aaaRYZ\source\picture\method1.png"
+alt="method1" /></p>
+<hr />
+<h2 id="section-1">2026/4/1</h2>
+<h3 id="原因分析己烷引起dpp-dtt溶胀">原因分析：己烷引起DPP-DTT溶胀</h3>
+<p>在局部溶胀区域中，厚度与介电常数同时发生变化，其电压分配取决于 d/ε
+的比值。然而，由于实际结构存在显著空间不均匀性，局部区域可能出现极小厚度及低介电常数的叠加效应，从而导致局部电场显著增强，最终主导器件的击穿行为。</p>
+<h3 id="实验验证">【实验验证】</h3>
+<h4
+id="实验目的验证己烷有没有破坏-dpp-dtt-薄膜1260685-66-2">实验目的：验证己烷有没有破坏
+DPP-DTT 薄膜（1260685-66-2）</h4>
+<h4
+id="实验设计做两个完全一样的器件">实验设计：做两个完全一样的器件</h4>
+<h5 id="样品a对照组">✔ 样品A（对照组）</h5>
 <ul>
 <li>DPP-DTT薄膜不做任何处理</li>
 </ul>
-<h5 id="✔-样品B（测试组1）">✔ 样品B（测试组1）</h5>
+<h5 id="样品b测试组1">✔ 样品B（测试组1）</h5>
 <ul>
 <li>DPP-DTT薄膜滴 1–2 滴己烷，停留 10–30秒，吹干</li>
 </ul>
-<h5 id="✔-样品C（测试组2）">✔ 样品C（测试组2）</h5>
+<h5 id="样品c测试组2">✔ 样品C（测试组2）</h5>
 <ul>
 <li>DPP-DTT薄膜滴 1–2 滴氯仿，停留 10–30秒，吹干</li>
 </ul>
@@ -252,29 +270,29 @@
 <tr>
 <th>指标</th>
 <th>正常</th>
-<th style="text-align:center">溶胀后</th>
+<th style="text-align: center;">溶胀后</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>电流</td>
 <td>稳定</td>
-<td style="text-align:center">明显下降或异常</td>
+<td style="text-align: center;">明显下降或异常</td>
 </tr>
 <tr>
 <td>开关比</td>
 <td>高</td>
-<td style="text-align:center">下降</td>
+<td style="text-align: center;">下降</td>
 </tr>
 <tr>
 <td>漏电</td>
 <td>小</td>
-<td style="text-align:center">增大</td>
+<td style="text-align: center;">增大</td>
 </tr>
 <tr>
 <td>曲线</td>
 <td>平滑</td>
-<td style="text-align:center">畸变</td>
+<td style="text-align: center;">畸变</td>
 </tr>
 </tbody>
 </table>
@@ -282,43 +300,45 @@
 <li>如果己烷效果接近氯仿 = 严重溶胀</li>
 <li>如果介于中间 = 部分溶胀</li>
 </ul>
-<hr>
-<h4 id="解决方案：">解决方案：</h4>
+<hr />
+<h4 id="解决方案">解决方案：</h4>
 <p>方案一、PDMS先成膜 → 再转移</p>
 <p>方案二、加抗溶剂保护层</p>
 <p>方案三、换介电材料</p>
-<hr>
-<h3 id="方案一、PDMS先成膜-→-再转移">方案一、PDMS先成膜 → 再转移</h3>
-<h5 id="实验结果：在转移曲线中，前期漏极电流几乎不变化，高栅电压下，漏极电流小幅升高">实验结果：在转移曲线中，前期漏极电流几乎不变化，高栅电压下，漏极电流小幅升高</h5>
-<h5 id="结果分析：电场进去，弱栅控">结果分析：电场进去，弱栅控</h5>
-<p>电容：<br>
-$$<br>
-C = \frac{\varepsilon}{d}<br>
-$$</p>
+<hr />
+<h3 id="方案一pdms先成膜-再转移">方案一、PDMS先成膜 → 再转移</h3>
+<h5
+id="实验结果在转移曲线中前期漏极电流几乎不变化高栅电压下漏极电流小幅升高">实验结果：在转移曲线中，前期漏极电流几乎不变化，高栅电压下，漏极电流小幅升高</h5>
+<h5 id="结果分析电场进去弱栅控">结果分析：电场进去，弱栅控</h5>
+<p>电容： <span class="math display">$$
+C = \frac{\varepsilon}{d}
+$$</span></p>
 <p>d 很大（PDMS厚 + 空气间隙）</p>
-<p>ε 很小（PDMS≈2.5 + 空气≈1）<br>
-$$<br>
-所以C 非常小<br>
-$$<br>
-栅控电荷：<br>
-$$<br>
-Q = C V<br>
-$$<br>
+<p>ε 很小（PDMS≈2.5 + 空气≈1）</p>
+<p>所以C非常小</p>
+<p>栅控电荷： <span
+class="math display"><em>Q</em> = <em>C</em> × <em>V</em></span>
 要产生同样 Q：必须用更大的 V</p>
-<h5 id="原因：有空气间隙、PDMS太厚、PDMS-ε-太低">原因：有空气间隙、PDMS太厚、PDMS ε 太低</h5>
-<h5 id="解决方案：-2">解决方案：</h5>
+<h5
+id="原因有空气间隙pdms太厚pdms-ε-太低">原因：有空气间隙、PDMS太厚、PDMS
+ε 太低</h5>
+<h5 id="解决方案-1">解决方案：</h5>
 <ul>
-<li>
-<p>提高电容</p>
+<li><p>提高电容</p>
 <p>减薄PDMS</p>
-<p>消除空气层：轻压或者加热</p>
-</li>
-<li>
-<p>引入“薄高ε层”（PVA / PMMA）</p>
-</li>
+<p>消除空气层：轻压或者加热</p></li>
+<li><p>引入“薄高ε层”（PVA / PMMA）</p></li>
 </ul>
 <h5 id="各种介电层性能">各种介电层性能</h5>
-<table>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 16%" />
+<col style="width: 8%" />
+<col style="width: 27%" />
+<col style="width: 21%" />
+<col style="width: 13%" />
+</colgroup>
 <thead>
 <tr>
 <th>材料</th>
@@ -380,42 +400,46 @@ $$<br>
 </tr>
 </tbody>
 </table>
-<hr>
-<h3 id="方案二、加抗溶剂保护层">方案二、加抗溶剂保护层</h3>
-<h4 id="实验目的：制备不击穿的器件">实验目的：制备不击穿的器件</h4>
-<h4 id="实验设计：">实验设计：</h4>
-<p>EGaIn<br>
-↓<br>
-PDMS（少量己烷溶解，厚，完全固化）<br>
-↓<br>
-PVA（抗溶剂保护层， 薄） ⭐<br>
-↓<br>
-DPP-DTT<br>
-↓<br>
-AgNW</p>
+<hr />
+<h3 id="方案二加抗溶剂保护层">方案二、加抗溶剂保护层</h3>
+<h4 id="实验目的制备不击穿的器件">实验目的：制备不击穿的器件</h4>
+<h4 id="实验设计">实验设计：</h4>
+<p>EGaIn ↓ PDMS（少量己烷溶解，厚，完全固化） ↓ PVA（抗溶剂保护层， 薄）
+⭐ ↓ DPP-DTT ↓ AgNW</p>
 <ul>
-<li>
-<p>PVA挡溶剂，薄提高电容</p>
-</li>
-<li>
-<p>PDMS，厚防击穿</p>
-</li>
+<li>PVA挡溶剂，薄提高电容</li>
+<li>PDMS，厚防击穿</li>
 </ul>
-<p>$$<br>
-C = \frac{\varepsilon}{d}<br>
-$$</p>
-<p>$$<br>
-Q = C V<br>
-$$</p>
-<p>$$<br>
-E = \frac{V}{d}<br>
-$$</p>
-<hr>
-<h3 id="方案三、换介电材料">方案三、换介电材料</h3>
+<p>$$ C = \</p>
+<p>Q = C V\</p>
+<p>E = $$</p>
+<hr />
+<h3 id="方案三换介电材料">方案三、换介电材料</h3>
 <ul>
 <li>SEBS溶剂（己烷 / 甲苯），会溶胀DPP-DTT</li>
 <li>CYTOP溶剂（氟溶剂），和DPP-DTT完全正交</li>
 </ul>
+<hr />
+<h2 id="section-2">2026/4/3</h2>
+<h5 id="sebs溶剂氯仿甲苯">SEBS溶剂：氯仿、甲苯</h5>
+<h4
+id="实验目的尝试用sebs作为介电层sebs较好制备">实验目的：尝试用SEBS作为介电层（SEBS较好制备）</h4>
+<h4 id="实验设计-1">实验设计：</h4>
+<p>SEBSH1052 / 60 mg/mL in toluene / 1000 rpm, 1 min / 120 °C （150 °C
+？），1 h（厚度 1.05 μm），先在超疏水玻璃上做 SEBS
+膜，再转移；或者先加一层抗溶剂保护层。</p>
+<h5 id="参考文献">参考文献：</h5>
+<p>Ruiheng Chen et al., “Intrinsically stretchable all-carbon-nanotube
+transistors with styrene–ethylene–butylene–styrene as gate dielectrics
+integrated by photolithography-based process,” RSC Advances, 2020.</p>
+<p>Yuan/Yang et al., “Achieving tissue-level softness on stretchable
+electronics through a generalizable soft interlayer design,” Nature
+Communications, 2023.</p>
+<hr />
+<h2 id="section-3">2026/4/13</h2>
+<p>PVA保护层方法：将聚乙烯醇（PVA）溶于去离子水（质量分数 3 wt.%），以
+8000 rpm 转速旋涂 60 s，并在 100 ℃下退火 1 h。</p>
+<p>SEBS（OTS）：</p>
 
       
     </div>
@@ -489,35 +513,35 @@ $$</p>
 <thead>
 <tr>
 <th></th>
-<th style="text-align:center"><strong>上午</strong></th>
-<th style="text-align:center"><strong>下午</strong></th>
+<th style="text-align: center;"><strong>上午</strong></th>
+<th style="text-align: center;"><strong>下午</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>3.23</td>
-<td style="text-align:center"></td>
-<td style="text-align:center">旋半导体（24个）</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">旋半导体（24个）</td>
 </tr>
 <tr>
 <td>3.24</td>
-<td style="text-align:center">旋PU（12个）</td>
-<td style="text-align:center">测数据</td>
+<td style="text-align: center;">旋PU（12个）</td>
+<td style="text-align: center;">测数据</td>
 </tr>
 <tr>
 <td>3.25</td>
-<td style="text-align:center">尝试PDMS（其他介电层）</td>
-<td style="text-align:center">尝试PDMS（其他介电层）</td>
+<td style="text-align: center;">尝试PDMS（其他介电层）</td>
+<td style="text-align: center;">尝试PDMS（其他介电层）</td>
 </tr>
 <tr>
 <td>3.26</td>
-<td style="text-align:center">上课</td>
-<td style="text-align:center">根据数据灵活安排</td>
+<td style="text-align: center;">上课</td>
+<td style="text-align: center;">根据数据灵活安排</td>
 </tr>
 <tr>
 <td>3.27</td>
-<td style="text-align:center">上课</td>
-<td style="text-align:center">根据数据灵活安排</td>
+<td style="text-align: center;">上课</td>
+<td style="text-align: center;">根据数据灵活安排</td>
 </tr>
 </tbody>
 </table>
@@ -590,20 +614,29 @@ $$</p>
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
+          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very
+first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for
+more info. If you get any problems when using Hexo, you can find the
+answer in <a
+target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or
+you can ask me on <a
+target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
+<p>More info: <a
+target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server">Run server</h3>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 <p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
+<h3 id="generate-static-files">Generate static files</h3>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<p>More info: <a
+target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites">Deploy to remote sites</h3>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>More info: <a
+target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
 
       
     </div>
